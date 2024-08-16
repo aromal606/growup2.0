@@ -31,6 +31,11 @@ const userSchema = new Schema({
        required: true,
        minlength: 6
      },
+     emailStatus: {
+      type: String,
+      default:null
+     
+    },
      profilePicture: {
        type: String,
        default: ''
